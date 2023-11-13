@@ -1,4 +1,5 @@
 import svg from "../../assets/icons.svg";
+import { Link } from "react-router-dom";
 
 import { IoIosNotificationsOutline, IoIosArrowDown } from "react-icons/io";
 
@@ -8,7 +9,9 @@ const Header = () => {
     return (
         <div className='flex flex-col'>
             <div className='flex w-screen items-center justify-between px-2 sm:px-9 py-1 sm:py-3'>
-                <img src={svg} className='w-14 h-14' alt='mySvgImage' />
+                <Link to={"/"}>
+                    <img src={svg} className='w-14 h-14' alt='mySvgImage' />
+                </Link>
                 <div className='relative flex items-center gap-2'>
                     <span>
                         <IoIosNotificationsOutline size={23} />

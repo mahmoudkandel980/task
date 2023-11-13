@@ -13,7 +13,7 @@ const ItemsHeader = () => {
                 </select>
                 <input
                     placeholder='Search'
-                    className='border-[1px] border-gray  py-1 px-2 sm:px-10 rounded-md'
+                    className='border-[1px] border-gray w-32 sm:w-fit  py-1 px-2 sm:px-10 rounded-md'
                 />
                 <div className='flex-1 flex  justify-end items-center'>
                     <Link
