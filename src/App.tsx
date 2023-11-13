@@ -9,7 +9,7 @@ const App = () => {
     return (
         <main className='w-full flex flex-col min-h-screen'>
             <Header />
-            <div className='h-full flex-1'>
+            <div className='h-full flex-1 pb-10'>
                 <Routes>
                     <Route
                         path='/'

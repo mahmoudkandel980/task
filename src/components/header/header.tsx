@@ -7,7 +7,7 @@ import MainHeader from "./mainHeader";
 const Header = () => {
     return (
         <div className='flex flex-col'>
-            <div className='flex w-screen items-center justify-between px-9 py-3'>
+            <div className='flex w-screen items-center justify-between px-2 sm:px-9 py-1 sm:py-3'>
                 <img src={svg} className='w-14 h-14' alt='mySvgImage' />
                 <div className='relative flex items-center gap-2'>
                     <span>
@@ -22,7 +22,7 @@ const Header = () => {
                         alt=''
                     />
                     <div className='flex items-center gap-0.5 cursor-pointer'>
-                        <span>Henry</span>
+                        <span className='text-xs sm:text-base'>Henry</span>
                         <IoIosArrowDown size={12} />
                     </div>
                 </div>
