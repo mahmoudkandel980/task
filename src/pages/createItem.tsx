@@ -1,9 +1,6 @@
-import React from "react";
-
 import { BsCheckCircle } from "react-icons/bs";
 
 import Input from "../components/shared/input";
-import SelectInput from "../components/shared/selectInput";
 import AddArea from "../components/createItems/AddArea";
 import Note from "../components/createItems/note";
 import Ingrediants from "../components/createItems/Ingrediants/ingrediants";

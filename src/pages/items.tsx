@@ -1,5 +1,3 @@
-import React from "react";
-
 import ItemsHeader from "../components/items/itemsHeader";
 import TabelHeader from "../components/items/tabel/tabelHeader";
 import TabelBody from "../components/items/tabel/tabelBody";

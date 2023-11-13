@@ -1,5 +1,3 @@
-import React from "react";
-
 import svg from "../../assets/icons.svg";
 
 import { IoIosNotificationsOutline, IoIosArrowDown } from "react-icons/io";

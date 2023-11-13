@@ -1,5 +1,3 @@
-import React from "react";
-
 import { TABEL_BODY_ITEMS } from "../../../data/items";
 
 import { CiEdit } from "react-icons/ci";

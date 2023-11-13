@@ -1,10 +1,7 @@
-import React from "react";
-
 import SingleLink from "./SingleLink";
 import { AiOutlineHome, AiOutlineLayout } from "react-icons/ai";
 import { PiCircle } from "react-icons/pi";
 import { MdOutlineDashboardCustomize } from "react-icons/md";
-import { GrDocumentText } from "react-icons/gr";
 import { VscLayers } from "react-icons/vsc";
 import { HiOutlineDocumentText } from "react-icons/hi";
 

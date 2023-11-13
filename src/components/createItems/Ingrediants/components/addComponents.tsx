@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Model from "../../../models/model";
 import Backdrop from "../../../shared/backdrop";
 import { RiDeleteBin6Fill } from "react-icons/ri";

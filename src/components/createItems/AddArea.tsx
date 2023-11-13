@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SelectInput from "../shared/selectInput";
 import Model from "../models/model";
 import Backdrop from "../shared/backdrop";

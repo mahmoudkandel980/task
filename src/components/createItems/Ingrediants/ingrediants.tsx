@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Model from "../../models/model";
 import Backdrop from "../../shared/backdrop";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import Input from "../../shared/input";
-import SelectInput from "../../shared/selectInput";
 import Button from "../../shared/button";
 import AddMaterial from "./addMaterial";
 import AddComponents from "./components/addComponents";

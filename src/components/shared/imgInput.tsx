@@ -4,9 +4,9 @@ import React from "react";
 import { IoMdCloudUpload } from "react-icons/io";
 
 interface ImageInputProps {
-    cover_image: string | any;
+    cover_image: string;
     localImage: File | null;
-    name: string | any;
+    name?: string;
     accept?: string;
     id?: string;
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;

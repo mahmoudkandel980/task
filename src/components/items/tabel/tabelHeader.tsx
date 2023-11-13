@@ -1,5 +1,3 @@
-import React from "react";
-
 import { TABEL_HEADER_ITEMS } from "../../../data/items";
 
 const TabelHeader = () => {
