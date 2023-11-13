@@ -32,7 +32,7 @@ const Pagination = () => {
                 <MdOutlineKeyboardArrowLeft />
             </SingleListItem>
             {pages.map((page) => (
-                <SingleListItem>{page}</SingleListItem>
+                <SingleListItem key={page}>{page}</SingleListItem>
             ))}
             <SingleListItem>
                 <MdOutlineKeyboardArrowRight />

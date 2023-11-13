@@ -14,6 +14,7 @@ const DUMMY_IMAGE =
 
 const TABEL_BODY_ITEMS = [
     {
+        id: 1,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "Mr buffalo wings",
@@ -24,6 +25,7 @@ const TABEL_BODY_ITEMS = [
         price: 125,
     },
     {
+        id: 2,
         image: DUMMY_IMAGE,
         name: "بافلو برجر",
         itemName: "buffalo wings",
@@ -34,6 +36,7 @@ const TABEL_BODY_ITEMS = [
         price: 132,
     },
     {
+        id: 3,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",
@@ -44,6 +47,7 @@ const TABEL_BODY_ITEMS = [
         price: 112,
     },
     {
+        id: 4,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",
@@ -54,6 +58,7 @@ const TABEL_BODY_ITEMS = [
         price: 121,
     },
     {
+        id: 5,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",
@@ -64,6 +69,7 @@ const TABEL_BODY_ITEMS = [
         price: 145,
     },
     {
+        id: 6,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",
@@ -74,6 +80,7 @@ const TABEL_BODY_ITEMS = [
         price: 136,
     },
     {
+        id: 7,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",
@@ -84,6 +91,7 @@ const TABEL_BODY_ITEMS = [
         price: 125,
     },
     {
+        id: 8,
         image: DUMMY_IMAGE,
         name: "مستر بافلو برجر",
         itemName: "buffalo wings",

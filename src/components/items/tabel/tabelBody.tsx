@@ -1,13 +1,19 @@
+import { useState } from "react";
 import { TABEL_BODY_ITEMS } from "../../../data/items";
 
 import { CiEdit } from "react-icons/ci";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 
 const TabelBody = () => {
+    const [items, setItems] = useState(TABEL_BODY_ITEMS);
+    const deleteRowHandler = (id: number) => {
+        setItems((prevState) => prevState.filter((one) => one.id !== id));
+    };
+
     return (
         <tbody>
-            {TABEL_BODY_ITEMS.map((one, i) => (
-                <tr key={i} className='h-16'>
+            {items.map((one) => (
+                <tr key={one.id} className='h-16'>
                     <td className=''>
                         <img
                             className='w-9 h-9 rounded-full'
@@ -46,7 +52,10 @@ const TabelBody = () => {
                         <button className='text-edit'>
                             <CiEdit size={24} />
                         </button>
-                        <button className='ml-6 text-delete'>
+                        <button
+                            onClick={deleteRowHandler.bind(null, one.id)}
+                            className='ml-6 text-delete'
+                        >
                             <RiDeleteBin6Fill size={24} />
                         </button>
                     </td>
